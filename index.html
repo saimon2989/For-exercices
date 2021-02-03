@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Ciclos o For</title>
+</head>
+<body>
+    <div class="container my-5">
+
+        <h2>For</h2>
+        <p><strong>1.</strong> Crea un arreglo que contenga los siguientes platillos :</p>
+    </div>
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col-sm-6">
+                <input class="platillos form-control my-4" id="inputOne" type="text" placeholder="Enchiladas">
+                <input class="platillos form-control my-4" id="inputTwo" type="text" placeholder="Taco">
+                <input class="platillos form-control my-4" id="inputThree" type="text" placeholder="Tamal">
+                <input class="platillos form-control my-4" id="inputFour" type="text" placeholder="Pozole">
+                <input class="platillos form-control my-4" id="inputFive" type="text" placeholder="Barbacoa">
+                <input class="platillos form-control my-4" id="inputSix" type="text" placeholder="Guacamole">
+            </div>
+            <div class="col-sm-6">
+                <label for="inputOne"><strong>--</strong> Escribe una lista de platillos: </label>
+                <p>•Mediante un ciclo<strong> FOR</strong>, muestra todos los platillos. ( recuerda la propiedad Length)</p>
+                <button id="btnOne" class="btn-primary my-1">Comprobar</button>
+                <p>•Mediante un ciclo<strong> FOR</strong> y un condicional <strong>IF</strong>, muestra solo el pozole y la barbacoa</p>
+                <button id="btnTwo" class="btn-primary my-1">Comprobar</button>
+                <p>•Mediante un ciclo<strong> FOR</strong>  y un condicional <strong>IF</strong>, muestra solo los elementos impares</p>
+                <button id="btnThree" class="btn-primary my-1">Comprobar</button>
+                <p>•Mediante un ciclo<strong> FOR</strong>, muestra los elemetos que sean pares</p>
+                <button id="btnFour" class="btn-primary my-1">Comprobar</button>
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="container my-5">
+        <p><strong>2.</strong> Lee el siguiente arreglo de numeros enteros y saca su media y su promedio</p>
+        <div class="row align-items-start">
+            <div class="col-sm-12">
+                <p>Let <strong>enteros</strong> = [1, 5, 10, 12, 12, 13, 22, 25, 30, 32];</p>
+                <button id="btnPromedio" class="btn-primary">Promedio</button>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <p><strong>3.</strong> Crea un ciclo que muestre la tabla de multiplicar de un número</p>
+        <div class="row align-items-start">
+            <div class="col-sm-12">
+                <label class="my-3" for="inputNumber">Escribe el numero del que quieres ver la tabla de multiplicar</label>
+                <input id="inputNumber" class="my3" type="number">
+                <button id="btnTabla" class="btn-primary my-3">Mostrar Tabla</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <p><strong>4.</strong> Leer el siguiente arreglo con los datos de 8 empleados, muestra el nombre y sueldo del empleado que mas gana</p>
+        <div class="row align-items-start">
+            <div class="col-sm-12">
+                <p>
+                    const <strong>empleados</strong> = [<br>
+                                {nombre: 'Pepito Perez', Sueldo: 20000},<br>
+                        {nombre: 'Mari Carmen', Sueldo: 14000},<br>
+                        {nombre: 'Lady Dee', Sueldo: 17000},<br>
+                        {nombre: 'John Doe', Sueldo: 12000},<br>
+                        {nombre: 'Kerry Katul', Sueldo: 21000},<br>
+                        {nombre: 'Armando Casas', Sueldo: 18000},<br>
+                        {nombre: 'Ana Cabrera', Sueldo: 24000},<br>
+                        {nombre: 'Gustavo Racho', Sueldo: 50000},<br>
+                    ]
+                </p>
+                <button id="btnEmpleado" class="btn-primary my-3">¿Cuál es el empleado que mas gana?</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    
+    <!-- bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <!-- main js -->
+    <script src="main.js"></script>
+</body>
+</html>
